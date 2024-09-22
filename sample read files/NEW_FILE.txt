@@ -1,0 +1,5 @@
+This is a sample document.
+We are just creating lines.
+We will use this data to manipulate text.
+Python interpreter is efficient.
+enough to make this possible

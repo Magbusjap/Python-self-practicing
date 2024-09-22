@@ -92,3 +92,31 @@ USA.governance()
 UK.governance()"""
 
 
+"""# ex 8
+# Определение класса Polygon
+class Polygon:
+    def __init__(self, sides):
+        self.sides = sides
+    
+    def dispsides(self):
+        for i in range(self.sides):
+            print("side", i+1)
+
+# Определение класса Square на основе Polygon
+class Square(Polygon):
+    def __init__(self):
+        self.sides = int(input("Side of the quare: "))
+
+    def ind_area(self):
+        a = self.sides
+        # Вычисление площади
+        s = a * a
+        print("The area of the square is", s)
+# Определение многоугольника с 5 сторонами
+x = Polygon(5)
+x.dispsides()
+# Программа определяет квадрат, запрашивает длину
+# стороны у польщователя и ычисляет его площадь
+x2 = Square()
+x2.ind_area()"""
+
