@@ -1,5 +1,3 @@
-from __future__ import print_function, division
-
 
 """# Функция, которая ничего не возвращает.
 def text_one():
